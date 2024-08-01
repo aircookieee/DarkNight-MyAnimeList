@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night MyAnimeList (fork)
 @namespace		cicerakes
-@version		1.0.23
+@version		1.0.24
 @description	A dark/night theme for myanimelist.net.
 @author			aircookiee
 @license		CC-BY-SA-4.0
@@ -85,7 +85,19 @@
     .mal-navbar {
         background-color: #1e1e1e !important;
     }
+
+    .page-common .header-profile .header-profile-dropdown ul li a {
+        color: #cecece
+    }
     
+    .page-common .header-list .header-list-dropdown ul li a {
+        color: #cecece
+    }
+    
+    .mymessages .total_messages {
+        color: #cecece
+    }
+
     /* Light mode fixes */
     
 	body.index .widget-container .widget .index_h2_seo a {
