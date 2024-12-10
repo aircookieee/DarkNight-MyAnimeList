@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night MyAnimeList (fork)
 @namespace		cicerakes
-@version		1.0.25
+@version		1.0.26
 @description	A dark/night theme for myanimelist.net.
 @author			aircookiee
 @license		CC-BY-SA-4.0
@@ -127,6 +127,25 @@
         color: #cecece
     }
     
+    .navi-adapted, .adapted-manga-list, .information {
+        background-color: #1e1e1e !important;
+        color: #cecece
+    }
+    
+    .genres {
+        background-color: #2e2e2e !important;
+        color: #cecece !important
+    }
+    
+    .prodsrc, .adapted-manga-list .seasonal-anime .genres .genre, .genre a, .adapted-manga-list .seasonal-anime .properties .property:nth-child(n) {
+        background-color: #2e2e2e !important;
+        color: #fff !important
+    }
+    
+    .adapted-manga-list .seasonal-anime .information .information-item {
+        color: #cecece
+    }
+
     /* Light mode fixes */
     
 	body.index .widget-container .widget .index_h2_seo a {
